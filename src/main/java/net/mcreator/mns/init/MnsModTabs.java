@@ -22,6 +22,7 @@ public class MnsModTabs {
 				tabData.accept(MnsModItems.WOODEN_WAND.get());
 				tabData.accept(MnsModItems.RESIN.get());
 				tabData.accept(MnsModBlocks.PITCHERPOD.get().asItem());
+				tabData.accept(MnsModItems.SPELL_TOME.get());
 			})
 
 					.build());
