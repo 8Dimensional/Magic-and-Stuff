@@ -21,6 +21,7 @@ public class MnsModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mns.magicand_stuff")).icon(() -> new ItemStack(Items.WRITTEN_BOOK)).displayItems((parameters, tabData) -> {
 				tabData.accept(MnsModItems.WOODEN_WAND.get());
 				tabData.accept(MnsModItems.RESIN.get());
+				tabData.accept(MnsModBlocks.PITCHERPOD.get().asItem());
 			})
 
 					.build());
