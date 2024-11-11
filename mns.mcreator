@@ -31,8 +31,8 @@
       "registry_name": "resin",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mns/item/ResinItem.java",
-          "src/main/resources/assets/mns/models/item/resin.json"
+          "src/main/resources/assets/mns/models/item/resin.json",
+          "src/main/java/net/mcreator/mns/item/ResinItem.java"
         ]
       }
     }

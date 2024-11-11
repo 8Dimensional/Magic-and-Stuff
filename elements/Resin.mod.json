@@ -9,7 +9,11 @@
     "states": [],
     "name": "Resin",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:MagicandStuff"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 32,

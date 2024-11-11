@@ -20,6 +20,7 @@ public class MnsModTabs {
 	public static final RegistryObject<CreativeModeTab> MAGICAND_STUFF = REGISTRY.register("magicand_stuff",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mns.magicand_stuff")).icon(() -> new ItemStack(Items.WRITTEN_BOOK)).displayItems((parameters, tabData) -> {
 				tabData.accept(MnsModItems.WOODEN_WAND.get());
+				tabData.accept(MnsModItems.RESIN.get());
 			})
 
 					.build());
