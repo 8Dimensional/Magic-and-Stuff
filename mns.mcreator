@@ -9,14 +9,32 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "WoodenWand",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mns/item/WoodenWandItem.java",
+          "src/main/resources/assets/mns/models/item/wooden_wand.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:WoodenWand"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.mns.wooden_wand": "Wooden Wand",
       "item_group.mns.magicand_stuff": "Magic and Stuff"
     }
   },
