@@ -22,6 +22,19 @@
           "src/main/resources/assets/mns/models/item/wooden_wand.json"
         ]
       }
+    },
+    {
+      "name": "Resin",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mns/item/ResinItem.java",
+          "src/main/resources/assets/mns/models/item/resin.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -35,6 +48,7 @@
   "language_map": {
     "en_us": {
       "item.mns.wooden_wand": "Wooden Wand",
+      "item.mns.resin": "Resin",
       "item_group.mns.magicand_stuff": "Magic and Stuff"
     }
   },
