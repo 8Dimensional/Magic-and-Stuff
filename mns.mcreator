@@ -44,11 +44,11 @@
       "registry_name": "pitcherpod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mns/block/PitcherpodBlock.java",
-          "src/main/resources/assets/mns/models/block/pitcherpod.json",
-          "src/main/resources/data/mns/loot_tables/blocks/pitcherpod.json",
+          "src/main/resources/assets/mns/blockstates/pitcherpod.json",
           "src/main/resources/assets/mns/models/item/pitcherpod.json",
-          "src/main/resources/assets/mns/blockstates/pitcherpod.json"
+          "src/main/resources/data/mns/loot_tables/blocks/pitcherpod.json",
+          "src/main/resources/assets/mns/models/block/pitcherpod.json",
+          "src/main/java/net/mcreator/mns/block/PitcherpodBlock.java"
         ]
       }
     },
@@ -78,6 +78,8 @@
     "en_us": {
       "item.mns.wooden_wand": "Wooden Wand",
       "item.mns.resin": "Resin",
+      "block.mns.pitcherpod": "Pitcherpod magic",
+      "item.mns.spell_tome": "Spell Tome",
       "item_group.mns.magicand_stuff": "Magic and Stuff"
     }
   },
