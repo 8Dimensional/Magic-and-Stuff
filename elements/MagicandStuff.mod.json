@@ -4,7 +4,7 @@
   "definition": {
     "name": "Magic and Stuff",
     "icon": {
-      "value": "Items.WRITTEN_BOOK"
+      "value": "Blocks.DOUBLE_PLANT#0"
     },
     "showSearch": false
   }
