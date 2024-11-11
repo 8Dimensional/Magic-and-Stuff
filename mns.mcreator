@@ -35,6 +35,19 @@
           "src/main/java/net/mcreator/mns/item/ResinItem.java"
         ]
       }
+    },
+    {
+      "name": "SpellTome",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_tome",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mns/models/item/spell_tome.json",
+          "src/main/java/net/mcreator/mns/item/SpellTomeItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -49,6 +62,7 @@
     "en_us": {
       "item.mns.wooden_wand": "Wooden Wand",
       "item.mns.resin": "Resin",
+      "item.mns.spell_tome": "Spell Tome",
       "item_group.mns.magicand_stuff": "Magic and Stuff"
     }
   },
