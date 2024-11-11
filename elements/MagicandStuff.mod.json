@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Magic and Stuff",
+    "icon": {
+      "value": "Items.WRITTEN_BOOK"
+    },
+    "showSearch": false
+  }
+}

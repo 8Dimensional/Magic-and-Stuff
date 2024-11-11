@@ -1,11 +1,24 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "MagicandStuff",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magicand_stuff",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.mns.magicand_stuff": "Magic and Stuff"
+    }
   },
   "foldersRoot": {
     "name": "~",
