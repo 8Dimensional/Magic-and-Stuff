@@ -5,7 +5,7 @@
     "toolType": "Special",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "startingwand",
+    "texture": "crookedwand",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Crooked Wand",
@@ -18,7 +18,7 @@
       }
     ],
     "efficiency": 4.0,
-    "attackSpeed": 100.0,
+    "attackSpeed": 1.0,
     "enchantability": 2,
     "damageVsEntity": 4.0,
     "usageCount": 100,
@@ -27,7 +27,7 @@
     },
     "repairItems": [],
     "immuneToFire": false,
-    "blockDropsTier": "NETHERITE",
+    "blockDropsTier": "WOOD",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

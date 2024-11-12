@@ -15,8 +15,8 @@ import net.minecraft.core.BlockPos;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
 
-public class WoodenWandItem extends Item {
-	public WoodenWandItem() {
+public class CrookedWandItem extends Item {
+	public CrookedWandItem() {
 		super(new Item.Properties().durability(100));
 	}
 
@@ -48,7 +48,7 @@ public class WoodenWandItem extends Item {
 			ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 			builder.putAll(super.getDefaultAttributeModifiers(equipmentSlot));
 			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Tool modifier", 3f, AttributeModifier.Operation.ADDITION));
-			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Tool modifier", 96, AttributeModifier.Operation.ADDITION));
+			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Tool modifier", -3, AttributeModifier.Operation.ADDITION));
 			return builder.build();
 		}
 		return super.getDefaultAttributeModifiers(equipmentSlot);

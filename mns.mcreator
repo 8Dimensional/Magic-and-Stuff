@@ -11,19 +11,6 @@
       }
     },
     {
-      "name": "WoodenWand",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crooked_wand",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mns/item/WoodenWandItem.java",
-          "src/main/resources/assets/mns/models/item/crooked_wand.json"
-        ]
-      }
-    },
-    {
       "name": "Resin",
       "type": "item",
       "compiles": true,
@@ -48,13 +35,26 @@
           "src/main/java/net/mcreator/mns/item/SpellTomeItem.java"
         ]
       }
+    },
+    {
+      "name": "CrookedWand",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crooked_wand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mns/item/CrookedWandItem.java",
+          "src/main/resources/assets/mns/models/item/crooked_wand.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:WoodenWand"
+      "~CUSTOM:CrookedWand"
     ]
   },
   "tab_element_order": {},
@@ -62,7 +62,6 @@
     "en_us": {
       "item.mns.resin": "Resin",
       "item.mns.spell_tome": "Spell Tome",
-      "item.mns.crooked_wand": "Crooked Wand",
       "item_group.mns.magicand_stuff": "Magic and Stuff"
     }
   },
