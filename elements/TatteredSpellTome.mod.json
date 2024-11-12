@@ -7,8 +7,8 @@
     "customModelName": "Ranged item",
     "customProperties": {},
     "states": [],
-    "name": "Spell Tome",
-    "rarity": "EPIC",
+    "name": "Tattered Spell Tome",
+    "rarity": "COMMON",
     "creativeTabs": [
       {
         "value": "CUSTOM:MagicandStuff"
@@ -23,7 +23,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
@@ -38,10 +38,10 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": true,
-    "shootConstantly": true,
-    "rangedItemChargesPower": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": true,
     "projectile": {
-      "value": "SpectralArrow"
+      "value": "Arrow"
     },
     "projectileDisableAmmoCheck": true,
     "isFood": false,

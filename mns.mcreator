@@ -24,19 +24,6 @@
       }
     },
     {
-      "name": "SpellTome",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spell_tome",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/mns/models/item/spell_tome.json",
-          "src/main/java/net/mcreator/mns/item/SpellTomeItem.java"
-        ]
-      }
-    },
-    {
       "name": "CrookedWand",
       "type": "tool",
       "compiles": true,
@@ -47,7 +34,22 @@
           "src/main/java/net/mcreator/mns/item/CrookedWandItem.java",
           "src/main/resources/assets/mns/models/item/crooked_wand.json"
         ]
-      }
+      },
+      "path": "~/Equipment/Wands"
+    },
+    {
+      "name": "TatteredSpellTome",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tattered_spell_tome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mns/item/TatteredSpellTomeItem.java",
+          "src/main/resources/assets/mns/models/item/tattered_spell_tome.json"
+        ]
+      },
+      "path": "~/Equipment/Spell Tomes"
     }
   ],
   "variable_elements": [],
@@ -61,13 +63,27 @@
   "language_map": {
     "en_us": {
       "item.mns.resin": "Resin",
-      "item.mns.spell_tome": "Spell Tome",
+      "item.mns.tattered_spell_tome": "Tattered Spell Tome",
       "item_group.mns.magicand_stuff": "Magic and Stuff"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Equipment",
+        "children": [
+          {
+            "name": "Wands",
+            "children": []
+          },
+          {
+            "name": "Spell Tomes",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "mns",
