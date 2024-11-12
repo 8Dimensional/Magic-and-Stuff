@@ -2,13 +2,13 @@
   "_fv": 69,
   "_type": "tool",
   "definition": {
-    "toolType": "Sword",
+    "toolType": "Special",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "minecraft:stick",
+    "texture": "startingwand",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Wooden Wand",
+    "name": "Crooked Wand",
     "specialInformation": {
       "fixedValue": []
     },

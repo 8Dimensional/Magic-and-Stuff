@@ -1,7 +1,6 @@
 {
-  "item.mns.wooden_wand": "Wooden Wand",
   "item.mns.resin": "Resin",
-  "block.mns.pitcherpod": "Pitcherpod magic",
   "item.mns.spell_tome": "Spell Tome",
+  "item.mns.crooked_wand": "Crooked Wand",
   "item_group.mns.magicand_stuff": "Magic and Stuff"
 }

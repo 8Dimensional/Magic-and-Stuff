@@ -19,7 +19,6 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mns.init.MnsModTabs;
 import net.mcreator.mns.init.MnsModItems;
-import net.mcreator.mns.init.MnsModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -40,8 +39,6 @@ public class MnsMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
-		MnsModBlocks.REGISTRY.register(bus);
 
 		MnsModItems.REGISTRY.register(bus);
 
