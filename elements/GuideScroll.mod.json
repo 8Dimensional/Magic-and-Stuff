@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "minecraft:paper",
+    "texture": "guidescroll",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
