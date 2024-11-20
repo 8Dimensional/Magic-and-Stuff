@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mns.init.MnsModTabs;
+import net.mcreator.mns.init.MnsModMenus;
 import net.mcreator.mns.init.MnsModItems;
 
 import java.util.function.Supplier;
@@ -43,6 +44,8 @@ public class MnsMod {
 		MnsModItems.REGISTRY.register(bus);
 
 		MnsModTabs.REGISTRY.register(bus);
+
+		MnsModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

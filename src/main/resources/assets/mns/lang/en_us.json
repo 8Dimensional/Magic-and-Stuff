@@ -1,6 +1,8 @@
 {
   "biome.mns.broken_forest": "Broken Forest",
   "item.mns.guide_scroll": "Guide Scroll",
+  "gui.mns.guidescroll_gui.label_yup_it_works": "Yup it works!",
+  "gui.mns.guidescroll_gui.label_guide_scroll_tets": "Guide Scroll Test",
   "item.mns.resin": "Resin",
   "block.mns.pitcherpod": "Pitcherpod magic",
   "item.mns.spell_tome": "Spell Tome",
