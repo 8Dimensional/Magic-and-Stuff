@@ -8,25 +8,20 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.mns.item.WoodenWandItem;
-import net.mcreator.mns.item.SpellTomeItem;
+import net.mcreator.mns.item.TatteredSpellTomeItem;
 import net.mcreator.mns.item.ResinItem;
+import net.mcreator.mns.item.GuideScrollItem;
+import net.mcreator.mns.item.CrookedWandItem;
 import net.mcreator.mns.MnsMod;
 
 public class MnsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, MnsMod.MODID);
-	public static final RegistryObject<Item> WOODEN_WAND = REGISTRY.register("wooden_wand", () -> new WoodenWandItem());
 	public static final RegistryObject<Item> RESIN = REGISTRY.register("resin", () -> new ResinItem());
-	public static final RegistryObject<Item> PITCHERPOD = block(MnsModBlocks.PITCHERPOD);
-	public static final RegistryObject<Item> SPELL_TOME = REGISTRY.register("spell_tome", () -> new SpellTomeItem());
-
+	public static final RegistryObject<Item> TATTERED_SPELL_TOME = REGISTRY.register("tattered_spell_tome", () -> new TatteredSpellTomeItem());
+	public static final RegistryObject<Item> CROOKED_WAND = REGISTRY.register("crooked_wand", () -> new CrookedWandItem());
+	public static final RegistryObject<Item> GUIDE_SCROLL = REGISTRY.register("guide_scroll", () -> new GuideScrollItem());
 	// Start of user code block custom items
 	// End of user code block custom items
-	private static RegistryObject<Item> block(RegistryObject<Block> block) {
-		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
-	}
 }

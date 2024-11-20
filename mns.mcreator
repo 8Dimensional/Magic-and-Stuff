@@ -11,19 +11,6 @@
       }
     },
     {
-      "name": "WoodenWand",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wooden_wand",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mns/item/WoodenWandItem.java",
-          "src/main/resources/assets/mns/models/item/wooden_wand.json"
-        ]
-      }
-    },
-    {
       "name": "Resin",
       "type": "item",
       "compiles": true,
@@ -31,8 +18,8 @@
       "registry_name": "resin",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mns/item/ResinItem.java",
-          "src/main/resources/assets/mns/models/item/resin.json"
+          "src/main/resources/assets/mns/models/item/resin.json",
+          "src/main/java/net/mcreator/mns/item/ResinItem.java"
         ]
       }
     },
@@ -64,11 +51,56 @@
           "src/main/java/net/mcreator/mns/item/SpellTomeItem.java"
         ]
       }
+    },
+    {
+      "name": "TatteredSpellTome",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tattered_spell_tome",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mns/models/item/tattered_spell_tome.json",
+          "src/main/java/net/mcreator/mns/item/TatteredSpellTomeItem.java"
+        ]
+      },
+      "path": "~/Equipment/Spell Tomes"
+    },
+    {
+      "name": "CrookedWand",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crooked_wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mns/models/item/crooked_wand.json",
+          "src/main/java/net/mcreator/mns/item/CrookedWandItem.java"
+        ]
+      },
+      "path": "~/Equipment/Wands"
+    },
+    {
+      "name": "GuideScroll",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guide_scroll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mns/item/GuideScrollItem.java",
+          "src/main/resources/assets/mns/models/item/guide_scroll.json"
+        ]
+      },
+      "path": "~/Equipment"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:CrookedWand"
+    ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:WoodenWand"
     ]
@@ -76,7 +108,6 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.mns.wooden_wand": "Wooden Wand",
       "item.mns.resin": "Resin",
       "block.mns.pitcherpod": "Pitcherpod magic",
       "item.mns.spell_tome": "Spell Tome",
@@ -85,7 +116,21 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Equipment",
+        "children": [
+          {
+            "name": "Wands",
+            "children": []
+          },
+          {
+            "name": "Spell Tomes",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "mns",
