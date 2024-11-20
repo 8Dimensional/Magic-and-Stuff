@@ -60,7 +60,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/mns/item/GuideScrollItem.java",
-          "src/main/resources/assets/mns/models/item/guide_scroll.json"
+          "src/main/resources/assets/mns/models/item/guide_scroll.json",
+          "src/main/java/net/mcreator/mns/item/inventory/GuideScrollInventoryCapability.java"
         ]
       },
       "path": "~/Equipment"
