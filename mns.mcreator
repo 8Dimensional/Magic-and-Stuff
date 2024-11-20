@@ -50,6 +50,20 @@
         ]
       },
       "path": "~/Equipment/Spell Tomes"
+    },
+    {
+      "name": "GuideScroll",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guide_scroll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mns/item/GuideScrollItem.java",
+          "src/main/resources/assets/mns/models/item/guide_scroll.json"
+        ]
+      },
+      "path": "~/Equipment"
     }
   ],
   "variable_elements": [],
@@ -62,6 +76,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.mns.guide_scroll": "Guide Scroll",
       "item.mns.resin": "Resin",
       "item.mns.tattered_spell_tome": "Tattered Spell Tome",
       "item_group.mns.magicand_stuff": "Magic and Stuff"

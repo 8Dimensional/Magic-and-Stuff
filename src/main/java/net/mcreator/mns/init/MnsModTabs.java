@@ -22,6 +22,7 @@ public class MnsModTabs {
 				tabData.accept(MnsModItems.RESIN.get());
 				tabData.accept(MnsModItems.CROOKED_WAND.get());
 				tabData.accept(MnsModItems.TATTERED_SPELL_TOME.get());
+				tabData.accept(MnsModItems.GUIDE_SCROLL.get());
 			})
 
 					.build());
