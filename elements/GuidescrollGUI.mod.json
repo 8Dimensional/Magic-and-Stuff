@@ -1,0 +1,52 @@
+{
+  "_fv": 69,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 153,
+    "height": 209,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_guide_scroll_tets",
+          "text": {
+            "fixedValue": "Guide Scroll Test"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 142,
+          "y": 20
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_yup_it_works",
+          "text": {
+            "fixedValue": "Yup it works!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 141,
+          "y": 50
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

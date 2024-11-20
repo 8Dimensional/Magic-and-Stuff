@@ -36,7 +36,7 @@
     "glowCondition": {
       "fixedValue": false
     },
-    "guiBoundTo": "<NONE>",
+    "guiBoundTo": "GuidescrollGUI",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": false,
