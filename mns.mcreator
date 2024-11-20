@@ -18,24 +18,10 @@
       "registry_name": "resin",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mns/models/item/resin.json",
-          "src/main/java/net/mcreator/mns/item/ResinItem.java"
+          "src/main/java/net/mcreator/mns/item/ResinItem.java",
+          "src/main/resources/assets/mns/models/item/resin.json"
         ]
       }
-    },
-    {
-      "name": "CrookedWand",
-      "type": "tool",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crooked_wand",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mns/item/CrookedWandItem.java",
-          "src/main/resources/assets/mns/models/item/crooked_wand.json"
-        ]
-      },
-      "path": "~/Equipment/Wands"
     },
     {
       "name": "TatteredSpellTome",
@@ -45,11 +31,25 @@
       "registry_name": "tattered_spell_tome",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mns/item/TatteredSpellTomeItem.java",
-          "src/main/resources/assets/mns/models/item/tattered_spell_tome.json"
+          "src/main/resources/assets/mns/models/item/tattered_spell_tome.json",
+          "src/main/java/net/mcreator/mns/item/TatteredSpellTomeItem.java"
         ]
       },
       "path": "~/Equipment/Spell Tomes"
+    },
+    {
+      "name": "CrookedWand",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crooked_wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mns/models/item/crooked_wand.json",
+          "src/main/java/net/mcreator/mns/item/CrookedWandItem.java"
+        ]
+      },
+      "path": "~/Equipment/Wands"
     },
     {
       "name": "GuideScroll",
@@ -64,6 +64,21 @@
         ]
       },
       "path": "~/Equipment"
+    },
+    {
+      "name": "BrokenForest",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mns/worldgen/placed_feature/broken_forest_tree.json",
+          "src/main/resources/data/mns/worldgen/configured_feature/broken_forest_tree.json",
+          "src/main/resources/data/mns/worldgen/biome/broken_forest.json"
+        ]
+      },
+      "path": "~/Equipment"
     }
   ],
   "variable_elements": [],
@@ -71,13 +86,19 @@
   "tag_elements": {
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:CrookedWand"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_nether": [
+      "~CUSTOM:BrokenForest"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "biome.mns.broken_forest": "Broken Forest",
       "item.mns.guide_scroll": "Guide Scroll",
       "item.mns.resin": "Resin",
+      "block.mns.pitcherpod": "Pitcherpod magic",
+      "item.mns.spell_tome": "Spell Tome",
       "item.mns.tattered_spell_tome": "Tattered Spell Tome",
       "item.mns.crooked_wand": "Crooked Wand",
       "item_group.mns.magicand_stuff": "Magic and Stuff"
